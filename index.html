@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Plant Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Plant Monitoring System</h1>
+    </header>
+    
+    <section id="status">
+        <h2>Plant Health Overview</h2>
+        <img id="plant-image" src="" alt="Plant Image">
+        <div id="plant-health">
+            <p>Status: <span id="plant-status">Healthy</span></p>
+        </div>
+    </section>
+    
+    <section id="data">
+        <h2>Environmental Data</h2>
+        <div class="data-item">
+            <label>Soil Moisture:</label>
+            <span id="soil-moisture">Loading...</span>
+        </div>
+        <div class="data-item">
+            <label>Temperature:</label>
+            <span id="temperature">Loading...</span>
+        </div>
+        <div class="data-item">
+            <label>Humidity:</label>
+            <span id="humidity">Loading...</span>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Powered by ESP32-CAM and Sensors</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
