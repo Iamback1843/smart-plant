@@ -13,9 +13,10 @@
     
     <section id="status">
         <h2>Plant Health Overview</h2>
-        <img id="plant-image" src="" alt="Plant Image">
+        <img id="plant-image" src="" alt="Live Plant Image">
         <div id="plant-health">
             <p>Status: <span id="plant-status">Healthy</span></p>
+            <p id="recommendation">Recommendation: <span id="recommend-text">Not required</span></p>
         </div>
     </section>
     
@@ -34,7 +35,9 @@
             <span id="humidity">Loading...</span>
         </div>
     </section>
-    
+
+    <button id="water-button" onclick="activateWaterPump()">Pour Water</button>
+
     <footer>
         <p>Powered by ESP32-CAM and Sensors</p>
     </footer>
